@@ -1,0 +1,143 @@
+todo-form {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0em 0;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  background-color: white; }
+
+todo-form form {
+  max-width: 500px;
+  margin: 0 auto; }
+
+todo-form form:before,
+todo-form form:after {
+  display: block;
+  content: "";
+  clear: both; }
+
+todo-form input,
+todo-form button {
+  display: block;
+  padding: 1em;
+  border: none;
+  background: none;
+  float: left;
+  font-size: 1.1em;
+  box-sizing: border-box; }
+
+todo-form input {
+  background-color: white;
+  box-shadow: 0 0 1px 0 #777;
+  width: 70%; }
+
+todo-form button {
+  width: 30%;
+  float: right;
+  background-color: #1cc9a8;
+  color: white;
+  padding: 1em 0.2em;
+  box-shadow: 0 0 1px 0 #16a085; }
+
+todo-form .error {
+  max-width: 500px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0.8em 0.5em 0.8em;
+  font-size: 0.9em;
+  color: red; }
+
+todo-list {
+  display: block;
+  padding-top: 3em;
+  padding-bottom: 3em; }
+
+todo-list ul {
+  list-style: none;
+  margin: 1em 0;
+  padding: 0; }
+
+todo-list li:first-child {
+  border-top: none; }
+
+todo-list li:last-child {
+  border-bottom: none; }
+
+h2 {
+  padding: 0.1em 0;
+  margin: 0.5em 0; }
+
+todo-show {
+  display: block; }
+  todo-show div {
+    background-color: #F3F3F3;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #CCC;
+    position: relative; }
+  todo-show div:before,
+  todo-show div:after {
+    content: "";
+    display: block;
+    clear: both; }
+  todo-show .content,
+  todo-show .todo-remove {
+    float: left;
+    display: block; }
+  todo-show .content {
+    padding: 1em;
+    width: 79%; }
+  todo-show .todo-remove {
+    background: none;
+    color: #e74c3c;
+    border: none;
+    box-shadow: none;
+    font-size: 2.2em;
+    line-height: 100%;
+    width: 12%;
+    text-align: center;
+    float: right; }
+  todo-show .ready {
+    color: #999;
+    position: relative; }
+  todo-show .ready:before {
+    position: absolute;
+    top: 48%;
+    left: 1em;
+    width: 80%;
+    display: block;
+    border-bottom: 1px solid #999;
+    content: ""; }
+  todo-show .not-ready {
+    text-decoration: none; }
+
+todo-filter {
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+
+todo-filter div {
+  display: table;
+  text-decoration: none;
+  background-color: #ecf0f1;
+  text-align: center;
+  pointer: cursor; }
+
+todo-filter a {
+  display: table-cell;
+  width: 1%;
+  padding: 0.8em 0.4em;
+  color: #333;
+  cursor: pointer; }
+
+todo-filter a.active {
+  background-color: #2980b9;
+  color: white; }
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important; }
+
+body {
+  margin: 0;
+  padding: 0; }
