@@ -52,7 +52,9 @@ todo-form .error {
 todo-list {
   display: block;
   padding-top: 3em;
-  padding-bottom: 3em; }
+  padding-bottom: 3em;
+  max-width: 500px;
+  margin: 0 auto; }
 
 todo-list ul {
   list-style: none;
@@ -118,6 +120,8 @@ todo-filter {
   width: 100%; }
 
 todo-filter div {
+  max-width: 500px;
+  margin: 0 auto;
   display: table;
   text-decoration: none;
   background-color: #ecf0f1;
