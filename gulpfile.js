@@ -87,8 +87,9 @@ tasks = {
     return gulp.src(source_paths.html_index)
       .pipe(inject(injected_files,
                   {
-                    ignorePath: ['dist', 'build', 'source'],
+                    ignorePath: ['../dist', '../build', '../source'],
                     removeTags: true,
+                    relative: true
                   }))
       .pipe(gulp.dest(dest))
   },
