@@ -2,6 +2,8 @@ todo-list {
 	display: block;
 	padding-top: 3em;
 	padding-bottom: 3em;
+	max-width: 500px;
+	margin: 0 auto;
 }
 todo-list ul {
 	list-style: none;

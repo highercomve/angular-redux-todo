@@ -4,6 +4,8 @@ todo-filter {
 	width: 100%;
 }
 todo-filter div {
+	max-width: 500px;
+	margin: 0 auto;
 	display: table;
 	text-decoration: none;
 	background-color: #ecf0f1;
