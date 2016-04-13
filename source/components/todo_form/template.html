@@ -1,0 +1,10 @@
+<form name="createTodo" ng-submit="createTodo()">
+	<input
+	ng-model="text"
+	type="text" 
+	placeholder="What you have to do?">
+	<button type="submit">Add todo</button>
+</form>
+<div class="error" ng-repeat="error in errors track by $index">
+	{{ ::error }}
+</div>

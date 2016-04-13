@@ -1,0 +1,20 @@
+todo-list {
+	display: block;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+todo-list ul {
+	list-style: none;
+	margin: 1em 0;
+	padding: 0;
+}
+todo-list li:first-child {
+	border-top: none;
+}
+todo-list li:last-child {
+	border-bottom: none;
+}
+h2 {
+	padding: 0.1em 0;
+	margin: 0.5em 0;
+}

@@ -1,0 +1,12 @@
+<div ng-class="{'ready': todo.completed, 'not-ready': !todo.completed }">
+	<span 
+		class="content" 
+		ng-click="onCheck(todo.id)">
+		{{ ::todo.text }}
+	</span>
+	<button 
+		class="todo-remove" 
+		ng-click="onRemove(todo.id)">
+		{{ '\u2612' }}
+	</button>
+</div>

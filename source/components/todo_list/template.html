@@ -1,0 +1,9 @@
+<ul>
+	<li ng-repeat="todo in visibleTodos() track by $index">
+		<todo-show 
+			todo="todo" 
+			on-check="onCheck"
+			on-remove="onRemove">
+		</todo-show>
+	</li>
+</ul>

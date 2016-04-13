@@ -1,0 +1,51 @@
+todo-show {
+	display: block;
+	div {
+		background-color: #F3F3F3;
+		border-top: 1px solid #FFF;
+		border-bottom: 1px solid #CCC;
+		position: relative;
+	}
+	div:before,
+	div:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.content,
+	.todo-remove {
+		float: left;
+		display: block;
+	}
+	.content {
+		padding: 1em;
+		width: 79%;
+	}
+	.todo-remove {
+		background: none;
+		color: #e74c3c;
+		border: none;
+		box-shadow: none;
+		font-size: 2.2em;		
+		line-height: 100%;
+		width: 12%;
+		text-align: center;
+		float: right;
+	}
+	.ready {
+		color: #999;
+		position: relative;
+	}
+	.ready:before {
+		position: absolute;
+		top: 48%;
+		left: 1em;
+		width: 80%;
+		display: block;
+		border-bottom: 1px solid #999;
+		content: "";
+	}
+	.not-ready {
+		text-decoration: none;
+	}
+}

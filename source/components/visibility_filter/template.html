@@ -1,0 +1,8 @@
+<div>
+	<a 
+		ng-repeat="filter in filters track by $index"
+		ng-class="{ 'active': filterBy === filter.type }"
+		ng-click="onFilter(filter.type)">
+		{{ ::filter.text }}
+	</a>
+</div>

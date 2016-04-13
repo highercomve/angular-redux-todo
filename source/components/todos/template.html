@@ -1,0 +1,13 @@
+<todo-form 
+	on-submit="onSubmitHandler">
+</todo-form>
+<todo-list 
+	todos="state.todos" 
+	filter-by="{{ state.visibilityFilter }}"
+	on-check="onCheckHandler"
+	on-remove="onRemoveHandler">
+</todo-list>
+<todo-filter
+	filter-by="{{ state.visibilityFilter }}"
+	on-filter="onFilterHandler">
+</todo-filter>

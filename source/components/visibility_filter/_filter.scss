@@ -1,0 +1,23 @@
+todo-filter {
+	position: fixed; 
+	bottom: 0;
+	width: 100%;
+}
+todo-filter div {
+	display: table;
+	text-decoration: none;
+	background-color: #ecf0f1;
+	text-align: center;
+	pointer: cursor;
+}
+todo-filter a {
+	display: table-cell;
+	width: 1%;
+	padding: 0.8em 0.4em;
+	color: #333;
+	cursor: pointer;
+}
+todo-filter a.active {
+	background-color: #2980b9;
+	color: white;
+}
